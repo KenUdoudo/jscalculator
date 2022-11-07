@@ -10,21 +10,7 @@ buttons.forEach(function(button){
     screen.value += value;
   })
 });
-
-equal.addEventListener('click', function(e){
-  if(screen.value === ''){
-    screen.value = "";
-  }else{
-    let result = eval(screen.value);
-    screen.value = result;
-  }
-})
-clear.addEventListener('click', function(e){
-  screen.value = "";
-})
-
-
-})();*/
+*/
 let screen = document.querySelector('.screen');
 
 function nineClick(){
