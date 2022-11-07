@@ -28,6 +28,7 @@ form input {
   color: #fff;
   background: #000;
   text-align: right;
+  pointer-events: none;
 }
 
 .buttons {
