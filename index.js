@@ -57,9 +57,11 @@ function oneClick(){
 function zeroClick(){
   screen.value += 0;
 }
-//function dotClick(){
- // screen.value += ;
-//}
+let dot = document.getElementById('dot')
+
+function dotClick(){
+ screen.value += dot.dataset.num;
+}
 
 let multiply = document.getElementById('multiply')
 let divide = document.getElementById('divide')
@@ -89,4 +91,7 @@ function equalClick(){
     let result = eval(screen.value);
     screen.value = result;
   }
+}
+function clearClick(){
+  screen.value = "";
 }
